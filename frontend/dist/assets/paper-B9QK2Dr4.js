@@ -1,0 +1,1 @@
+import{z as a}from"./index-BrRd14I8.js";const t=e=>a.get("/papers/list",{params:e}),r=e=>a.get(`/papers/${e}`),o=e=>a.post("/papers",e),n=(e,s)=>a.put(`/papers/${e}`,s),d=e=>a.delete(`/papers/${e}`),g=e=>a.post("/papers/generate-random",e);export{r as a,g as b,d,t as g,o as s,n as u};

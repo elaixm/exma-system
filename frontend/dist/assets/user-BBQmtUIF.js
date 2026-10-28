@@ -1,0 +1,1 @@
+import{z as e}from"./index-BrRd14I8.js";const o=s=>e.post("/auth/login",s),a=s=>e.post("/auth/register",s),u=s=>e.get("/users/list",{params:s}),n=()=>e.get("/users/current"),c=s=>e.post("/users",s),g=(s,t)=>e.put(`/users/${s}`,t),i=s=>e.delete(`/users/${s}`);export{n as a,c,i as d,u as g,o as l,a as r,g as u};

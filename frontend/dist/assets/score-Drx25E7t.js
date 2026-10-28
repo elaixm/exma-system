@@ -1,0 +1,1 @@
+import{z as s}from"./index-BrRd14I8.js";const o=(e,t)=>s.get(`/scores/exam/${e}/student/${t}`),c=(e,t)=>s.put(`/scores/${e}/grade`,t),r=e=>s.get(`/scores/knowledge-graph/${e}`),g=e=>s.get(`/scores/class-weakness/${e}`);export{o as a,r as b,g,c as u};
